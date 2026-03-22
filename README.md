@@ -43,3 +43,18 @@ Metasploitable 2
 Before performing any attack, it is necessary to identify active hosts and services in the network.
 
 The following command was used to discover devices in the network:
+
+nmap -sn 192.168.56.0/24
+
+The scan identified the Metasploitable machine with the IP address:
+
+192.168.56.102
+
+### Port Scan
+
+To identify running services the following command was executed:
+nmap -sV 192.168.56.102
+
+21/tcp   ftp
+80/tcp   http
+445/tcp  smb
