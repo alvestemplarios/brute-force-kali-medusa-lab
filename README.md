@@ -24,3 +24,22 @@ The laboratory was created using two virtual machines running in VirtualBox.
 | Metasploitable 2 | Target | Vulnerable Linux |
 
 Both machines were connected using a **Host-Only network** to ensure a safe and isolated testing environment.
+
+
+## 🌐 Network Topology
+
+Attacker Machine  
+Kali Linux  
+192.168.56.101  
+
+Host-Only Network  
+
+Target Machine  
+Metasploitable 2  
+192.168.56.102
+
+## 🔎 Service Enumeration
+
+Before performing any attack, it is necessary to identify active hosts and services in the network.
+
+The following command was used to discover devices in the network:
